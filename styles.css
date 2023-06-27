@@ -3,6 +3,27 @@
     margin:0;
     box-sizing: border-box;
 }
-h1{
-    color:red;
+/* temporary stylles for structural html */
+*{
+    padding:0.5rem;
+    border: 2px solid grey;
+}
+
+body{border: none;}
+html{border: none;}
+
+/* Image styles */
+.bg-image{
+    background-image: url("/images/Bedsheets.png");
+    background-size: cover;
+    min-height: 20vh;
+}
+
+/* Universal styles and utility classes */
+.padded {padding:5%}
+.padded-sm {padding:1rem}
+
+.bg-dark{
+    background-color: black;
+    color:white;
 }
