@@ -3,14 +3,8 @@
     margin:0;
     box-sizing: border-box;
 }
-/* temporary stylles for structural html */
-*{
-    padding:0.5rem;
-    border: 2px solid grey;
-}
 
-body{border: none;}
-html{border: none;}
+
 
 /* Image styles */
 .bg-image{
@@ -20,10 +14,122 @@ html{border: none;}
 }
 
 /* Universal styles and utility classes */
+
+body{
+    font-family: "Catamaran", sans-serif;
+    color:#192837;
+}
+
+a{
+    text-decoration: none;
+    color:inherit;
+}
+a:hover{
+    color:aqua;
+}
+
 .padded {padding:5%}
 .padded-sm {padding:1rem}
+.padded-lg{padding:10%}
 
 .bg-dark{
-    background-color: black;
+    background-color: #192837;
     color:white;
+}
+
+
+/* -----Typography styles------- */
+
+h2{
+    font-size: 2.5rem;
+    line-height: 1.1;
+    margin-bottom: 1rem;
+}
+h3{
+    line-height: 1;
+}
+
+p{
+    font-weight: 200;
+    line-height: 1.5;
+    margin-bottom: 1rem;
+}
+
+p:last-child{ margin-bottom:0}
+
+
+
+.text-small{font-size: 1.5rem;}
+.text-medium{font-size: 2rem;}
+.text-big{font-size:4rem;}
+
+.subtitle{
+    font-size: 1rem;
+    color: rgb(61, 60, 61);
+}
+
+.text-white{color: white;}
+
+.text-left   {text-align:left;  }
+.text-center {text-align:center;}
+.text-right  {text-align:right; }
+
+.featured-text{color: rgb(241, 184, 27);}
+
+.tall-50  {min-height:50vh; }
+.tall-60  {min-height:60vh; }
+.tall-70  {min-height:70vh; }
+.tall-80  {min-height:80vh; }
+.tall-90  {min-height:90vh; }
+.tall-100 {min-height:100vh;}
+
+
+
+.font-weight-light      {font-weight:   200 ;}
+.font-weight-normal     {font-weight:normal ;}
+.font-weight-extra-bold {font-weight:   800 ;}
+
+
+/* -----------Header  and Footer Styles ---------- */
+header{
+    background-image: url("images/feathers.png");
+    background-size: cover;
+    background-position: center;
+    line-height: 1;
+}
+header h3{
+    font-size: 5rem;
+
+}
+
+/* ---------Background Images ---------- */
+.bg-cat{
+    background-image: url("images/sleeping_cat.jpg");
+    background-position: center;
+    background-size: cover;
+ }
+.bg-bed{
+    background-image: url("images/Bedsheets.png");
+    background-position: center;
+    background-size: cover;
+ }
+
+ .bg-feather{
+    background-image: url("images/feather.png");
+    background-position: center;
+    background-size: cover;
+ }
+
+
+ /* ---------- Icon Grid --------- */
+ .fas{
+    display: block;
+    text-align: center;
+    margin-bottom: 1rem;
+    font-size: 3rem;}
+.quotes{
+    display:inline-block;
+    font-size:5rem;
+    color: rgb(61, 60, 61);
+    line-height: 1;
 }

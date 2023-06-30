@@ -6,8 +6,10 @@
     <!-- this is our grid stylesheet -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/gridlex/2.7.1/gridlex.min.css">
 
-    <!-- This is google fonts -->
-
+    <!-- This is google fonts - Catamaran 200 400 500 800 -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Catamaran:wght@200;400;500;800&display=swap" rel="stylesheet">
     <!-- This is our font awesome toolkit -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
@@ -18,95 +20,106 @@
  <!--This is the body this is where all of our page content go  -->
 <body>
 
+
+
     <!--------------------- Header Banner ----------------------->
-    <header class="padded grid">
+    <header class="padded grid text-center tall-100">
         <div class="col-12-middle">
-            <h3>Sleep like a baby</h3>
-            <h1> the ultimate mattress solution</h1>
+            <h3><span class="featured-text">Sleep</span> like a baby</h3>
+            <h1 class="font-weight-light"> the ultimate mattress solution</h1>
         </div>
     </header>
 
+
+
     <!----------------------- Gallery section -------------------->
     <section class="grid" >
-        <div class="padded col-6">
-            <h2>Build to last more than a lifetime</h2>
+        <div class="padded col-6-middle">
+            <h2>Build to last <span class="featured-text"> more than a lifetime </span></h2>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor unde in earum?
                  Ipsa, incidunt odio voluptatibus necessitatibus veritatis nulla eaque nihil reiciendis
                   ratione nostrum aliquid aspernatur quidem quo iusto cum.</p>
         </div>
-        <div class="bg-image col-6">
+        <div class="bg-image col-6 tall-70  bg-bed ">
             <!-- background image featers -->
         </div>
-        <div class="bg-image col-6">
+        <div class="bg-image col-6 tall-70  bg-cat ">
             <!-- background image sleeping cat -->
         </div>
-        <div class="padded col-6">
-            <h2>So soft its unreal</h2>
+        <div class="padded col-6-middle">
+            <h2>So <span class="featured-text">soft</span>  its unreal</h2>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor unde in earum?
                  Ipsa, incidunt odio voluptatibus necessitatibus veritatis nulla eaque nihil reiciendis
                   ratione nostrum aliquid aspernatur quidem quo iusto cum.</p>
-        </div>
-        
+        </div> 
     </section>
+
+
 
     <!----------------------- Feature icon grid  -------------------->
     <section class="padded grid bg-dark">
-        <div class="padded-sm col-12">
-            <h2>features you'll love</h2>
+        <div class="padded-sm col-12 text-center">
+            <h2><span class="featured-text">features</span> you'll love</h2>
         </div>
         <div class="padded-sm col-3">
-            <i class="fa-solid fa-cloud"></i>
+            <i class="fas fa-solid fa-cloud"></i>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur voluptatem distinctio fugit velit odio molestiae delectus facilis quod, exercitationem impedit, omnis dolorem sunt vero excepturi, tempora ut quasi placeat iste.</p>
         </div>
         <div class="padded-sm col-3">
-            <i class="fa-solid fa-cloud"></i>
+            <i class="fas fa-solid fa-cloud"></i>
             <p> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Molestias quisquam, recusandae,
                  pariatur est tempora maiores atque dolorum ipsum quos numquam impedit sit, eum magni tenetur
                   perferendis repellat ducimus? Perspiciatis, fuga?</p>
         </div>
         <div class="padded-sm col-3">
-            <i class="fa-solid fa-cloud"></i>
+            <i class=" fas fa-solid fa-cloud"></i>
             <p> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Molestias quisquam, recusandae,
                  pariatur est tempora maiores atque dolorum ipsum quos numquam impedit sit, eum magni tenetur
                   perferendis repellat ducimus? Perspiciatis, fuga?</p>
         </div>
         <div class="padded-sm col-3">
-            <i class="fa-solid fa-cloud"></i>
+            <i class="fas fa-solid fa-cloud"></i>
             <p> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Molestias quisquam, recusandae,
                  pariatur est tempora maiores atque dolorum ipsum quos numquam impedit sit, eum magni tenetur
                   perferendis repellat ducimus? Perspiciatis, fuga?</p>
         </div>
     </section>
+
+
 
     <!------------------- Image banner ------------------->
-    <section class="padded">
-        <h3> Never gonna give you up,never gonna ket you down</h3>
+    <section class="padded text-center bg-feather tall-70 grid">
+        <div class="col-12-middle">
+        <h3><span class="text-small font-weight-light  "> Never gonna give you  <span class="featured-text">up</span> </span> <br> <span class="text-big">Never gonna let you <span class="featured-text text-white">down</span></span></h3>
+        </div>
     </section>
 
+
+
     <!------------------- Testimonial section ------------------->
-    <section class="padded grid">
-        <div class="col-1">
-            <span>"</span>
+    <section class="padded grid padded-lg">
+        <div class="col-1 text-right">
+            <span class="quotes">“</span>
         </div>
-        <div class="col-10">
-            <p> I've never expirienced sleep, like ever, why would i, i'm just a text on a website</p>
-            <p> - a text on a web site</p>
+        <div class="col-10 text-center ">
+            <p class="text-medium font-weight-light"> I've never expirienced sleep, like ever, why would i, i'm just a text on a website</p>
+            <p class="subtitle"> - a text on a web site</p>
         </div>
-        <div class="col-1">
-            <span>"</span>
+        <div class="col-1  ">
+            <span class="quotes">”</span>
         </div>
     </section>
     <!------------------ Footer --------------->
     <footer class="padded grid-spaceBetween bg-dark">
-        <div class="col-4">
-            <h3> Let's connect</h3>
+        <div class="col-4-bottom ">
+            <h3 class="text-medium"> Let's <br><span class="featured-text ">connect</span></h3>
             <p> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Harum temporibus voluptatum, ratione sequi suscipit at repellat dolorem a facilis aperiam sint, quidem aut adipisci nemo commodi corrupti iure dicta libero?</p>
         </div>
-        <div class="col-6">
-            <p>Call:12345 6789</p>
-            <p>Email: email@mail.com</p>
-            <p>Store: 33 slumber st,sleepland</p>
-            <p> Instagram:don't</p>
+        <div class="col-6-bottom">
+            <p><strong>Call:</strong> <a href="#">12345 6789</a> </p>
+            <p><strong>Email:</strong> <a href="#">email@mail.com</a> </p>
+            <p><strong>Store:</strong> <a href="#">33 slumber st,sleepland</a> </p>
+            <p><strong>Instagram:</strong> <a href="#">don't</a> </p>
         </div>
     </footer>
 </body>
