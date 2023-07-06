@@ -37,6 +37,12 @@ a:hover{
     color:white;
 }
 
+nav{
+    padding:1% 10%;
+    background-color: rgb(241, 184, 27);
+    color:#192837;
+    font-size: 2rem;
+}
 
 /* -----Typography styles------- */
 
